@@ -25,7 +25,7 @@ const CardCom = ({ post, index, postData, setPostData, setUpdatePostApi }) => {
   const { id, title, body } = post;
   return (
     <>
-      <div className="w-[350px] mx-auto bg-emerald-100 rounded-lg shadow-xl px-5 py-5 border-l-4 border-emerald-700">
+      <div className="2xl:w-[350px] mx-auto bg-emerald-100 rounded-lg shadow-xl px-5 py-5 border-l-4 border-emerald-700">
         <p className="mb-3 font-bold">{index + 1}</p>
         <h3 className="mb-3 font-bold text-md ">
           Title: <span className="text-sm font-normal">{title}</span>
